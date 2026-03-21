@@ -3,11 +3,6 @@
 **CM3070 Final Year Project** — University of London  
 **Author:** Chian Chin Yang (230369401) | **Supervisor:** Gerald Deng Xiang Chua
 
-## Overview
-
-Real-time multi-person fall detection combining:
-- **Your design**: YOLOv8 + ByteTrack + MediaPipe (fast, robust multi-person tracking)
-- **Reference** ([Taufeeque et al. 2021](https://doi.org/10.1117/12.2580700)): Physics-based features + LSTM fall classifier with false-positive dampening
 
 ## Pipeline
 
