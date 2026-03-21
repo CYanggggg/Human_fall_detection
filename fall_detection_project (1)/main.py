@@ -1,16 +1,3 @@
-"""
-Multi-Human Fall Detection Pipeline
-=====================================
-Combines your project design (YOLOv8 + ByteTrack + MediaPipe)
-with the reference project's physics-based fall features + LSTM.
-
-Pipeline: Video → YOLOv8 detect → ByteTrack track → MediaPipe pose
-          → 5 physics features → LSTM fall classifier → Annotated output
-
-Usage:
-    python main.py --input video.mp4 --show
-    python main.py --input video.mp4 --output outputs/result.mp4 --model_weights models/fall_lstm.pth
-"""
 import argparse, os, time, cv2, numpy as np
 from pathlib import Path
 from utils.config_loader import load_config
