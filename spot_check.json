@@ -1,0 +1,13 @@
+{
+    "video_fps": 24,
+    "notes": "Crowd ADL video from Pexels, no actual falls occur",
+    "spot_checks": [
+        {"frame": 30,  "actual_persons": 8,  "actual_falls": 0},
+        {"frame": 60,  "actual_persons": 12, "actual_falls": 0},
+        {"frame": 100, "actual_persons": 15, "actual_falls": 0},
+        {"frame": 150, "actual_persons": 20, "actual_falls": 0},
+        {"frame": 200, "actual_persons": 18, "actual_falls": 0},
+        {"frame": 250, "actual_persons": 22, "actual_falls": 0},
+        {"frame": 300, "actual_persons": 25, "actual_falls": 0}
+    ]
+}
